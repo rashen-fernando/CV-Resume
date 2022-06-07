@@ -1,0 +1,180 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{RASHEN FERNANDO} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{(+94)71-4269231} 
+\address{\href{mailto:rashen97official@gmail.com}{E-mail} \\ \href{https://www.linkedin.com/in/rashen-fern}{Linkedin} \\ \href{https://github.com/rashen-fernando?tab=repositories}{Github}}  %
+
+\begin{document}
+
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages & Python, C, Assembly, Matlab \\
+Libraries & Pytorch, TensorFlow, Keras, Librosa, Numpy \\
+Software & Proteus, KiKad, AutoCAD, MPLABX Arduino, Adobe, Blender, FL studio, Verilog, FFmpeg\\
+Other & PCB design, Soldering, Rapid prototyping, 3D modeling.
+\\
+Soft Skills & Teamwork, Communication, Problem Solving, Retentive\\
+\end{tabular}\\
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf BSc(Hons) Electrical and Electronic Engineering}, University of Peradeniya \hfill {2017 - Present}\\
+GPA: 3.64
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+% Projects
+%----------------------------------------------------------------------------------------
+\begin{rSection}{PROJECTS}
+\vspace{-1.25em}
+\item \textbf{Blind Source Separation} {Pytorch(Python), Matlab, Machine learning, Signal Processing} \hfill \href{https://sites.google.com/eng.pdn.ac.lk/rashen-fernando/week-1}{Read more}
+\begin{itemize}
+    \itemsep -3pt {} 
+     \item Analyzed temporal and frequency domain features of multi instrument audio signals to visualize timbre information of vocal signals.
+     \item Applied algorithms (PCA, ICA, NMF) and implemented neural network (Conv - TASnet) using pytorch to do blind source separation.
+
+    
+ \end{itemize}
+\item \textbf{Obstacle Avoiding Robot} {Assembly, micro-controller, interrupts, ADC, sensors, timer } \hfill \href{https://github.com/rashen-fernando/obstacleavoidingassembly}{GitHub}
+\begin{itemize}
+    \itemsep -3pt {} 
+     \item micro-controller is fully coded using assembly language to build an efficient robot by getting rid of coding redundancies.
+     \item The code is simulated using Proteus software.
+    \item Hardware model is developed and deployed.
+    
+ \end{itemize}
+\item \textbf{Frequency Reactive LED lights} {esp32, Arduino, C, Matlab, PCB design} \hfill \href{https://github.com/rashen-fernando/react_led}{GitHub}
+\begin{itemize}
+    \itemsep -3pt {} 
+     \item Captures audio from a microphone and the signal is sent through an amplifier and then to the esp32 micro controller.
+     \item Then using Geortzal's algorithm, FFT and STFT real time frequency is determined.
+    \item According to obtained frequencies and energy level of the signal LED light strip is controlled.
+    \item PCB was designed using KIKAD software and the 3D design was developed using SolidWorks software.
+ \end{itemize}
+ 
+ \item \textbf{Video Encoding Algorithm} {DCT, Quantization, Motion vector estimation, encoding, matlab} \hfill \href{https://github.com/rashen-fernando/Video-encoding-algorithm}{GitHub}
+
+ \item \textbf{Mini Quadcopter} {esp32, matlab, sensor fusion, Matlab, PCB design} \hfill \href{https://github.com/rashen-fernando/quadopter}{GitHub}
+
+\item \textbf{Stock Market Prediction} {Neural networks, Algorithms, Matlab} \hfill \href{https://github.com/rashen-fernando/stock-market-prediction}{GitHub}
+
+\item \textbf{Parity Bit Correction} {C} \hfill \href{https://github.com/rashen-fernando/Parity-bit-C-programming-}{GitHub}
+
+\item \textbf{Digital Spirometer} {Arduino} \hfill \href{https://github.com/rashen-fernando/spirometer}{GitHub}
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Certifications} 
+\begin{itemize}
+    \item 	Deep Learning by deeplearning.ai.
+    \item	Ariel Robotics by University Of Pennsylvania.
+    \item   3D Models For Virtual Reality by University of London
+    \item   The Art Of Music Production by Berklee College Of Music
+
+\end{itemize}
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Extra-Curricular Activities} 
+\begin{itemize}
+    \item   Synopsis "Inno Champ" runner up
+    \item   Hackathon, IEEEXtreme participants
+    \item 	Toastmaster - Pathways Dynamic Leadership Level 3 completed.
+    \item	Institute of Western Music And Speech Theory-(Grade 1-5).
+    \item   Institute of Western Music And Speech Practical-(Grade 1-5)
+    \item   Singer/Songwriter/Producer/Guitarist/Social media influencer
+    \item   Basketball university representative
+    
+\end{itemize}
+
+
+\end{rSection}
+
+\begin{rSection}{Interests} 
+\begin{itemize}
+    \item   Machine Learning / Data Science
+    \item   Signal Processing
+    \item 	Robotics and Automation Systems
+    \item	Embedded Systems
+    \item   Image Processing
+    \item   Mathematics
+    \item   Music
+    
+\end{itemize}
+
+
+\end{rSection}
+
+%------------------------
+% Use this more detailed section if you have Relevant work experience
+% keep your resume to 1 page, if you need to remove a project to display relevant experience
+% that is okay
+% ----------------------------
+% \begin{rSection}{EXPERIENCE}
+
+% \textbf{Role Name} \hfill Jan 2017 - Jan 2019\\
+% Company Name \hfill \textit{San Francisco, CA}
+%  \begin{itemize}
+%     \itemsep -3pt {} 
+%      \item Achieved X\% growth for XYZ using A, B, and C skills.
+%      \item Led XYZ which led to X\% of improvement in ABC
+%     \item Developed XYZ that did A, B, and C using X, Y, and Z. 
+%  \end{itemize}
+ 
+% \textbf{Role Name} \hfill Jan 2017 - Jan 2019\\
+% Company Name \hfill \textit{San Francisco, CA}
+%  \begin{itemize}
+%     \itemsep -3pt {} 
+%      \item Achieved X\% growth for XYZ using A, B, and C skills.
+%      \item Led XYZ which led to X\% of improvement in ABC
+%     \item Developed XYZ that did A, B, and C using X, Y, and Z. 
+%  \end{itemize}
+
+% \end{rSection} 
+
+\begin{rSection}{Work History}
+\vspace{-1.25em}
+\item \textbf{Intern} {SLINTEC} \hfill Nov 2019 - Jan 2020
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{References}
+\vspace{-1.25em}
+\item \textbf{Dr.Janaka Wijayakulasooriya} {Senior Lecturer at Department
+Of Electrical and Electronic Engineering, UOP} 
+\item \textbf {\href{mailto:jan@ee.pdn.ac.lk}{Contact Dr.Janaka Wijayakulasooriya}} 
+
+
+\item \textbf{Dr.Pantaleon Perrera} {Senior Lecturer at Department
+Of Engineering Mathematics ,UOP} 
+\item \textbf {\href{mailto:pperera@pdn.ac.lk}{Contact Dr.Pantaleon Perrera}} \\ 
+
+\end{rSection} 
+
+
+\end{document}
